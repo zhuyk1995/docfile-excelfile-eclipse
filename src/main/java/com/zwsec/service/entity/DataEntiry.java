@@ -1,5 +1,10 @@
 package com.zwsec.service.entity;
 
+/**
+ * 	区域实体类
+ * @author ZUOSHICHAO
+ *
+ */
 public class DataEntiry {
 
 	private String area;

@@ -17,7 +17,8 @@ import freemarker.template.Template;
 /**
  * word工具类
  * @author ZHUYK
- *
+ * @question：在循环word文件中占位符出现问题
+ * 	数据不完整且错误但word格式正确
  */
 public class DocUtil {
 

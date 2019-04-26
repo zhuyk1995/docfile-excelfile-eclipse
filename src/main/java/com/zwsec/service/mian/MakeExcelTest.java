@@ -80,6 +80,10 @@ public class MakeExcelTest {
 		}
 	}
 
+	/**
+	 * 	得到文件唯一名
+	 * @return
+	 */
 	public static String getFileName() {
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyymmddhhMMss");
 		String date = simpleDateFormat.format(new Date());

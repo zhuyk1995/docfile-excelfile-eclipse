@@ -19,11 +19,16 @@ import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.util.CellRangeAddress;
 
 import com.zwsec.service.entity.DataEntiry;
-
+/**
+ *	  导出Excel文件类
+ * @author ZUOSHICHAO
+ *
+ */
 public class ExportExcel {
 
 	public static void main(String[] args) {
 		MakeExcelTest makeExcelTest = new MakeExcelTest();
+		//得到File文件名
 		String fileName = makeExcelTest.getFileName();
 
 		HSSFWorkbook wb = new HSSFWorkbook();
