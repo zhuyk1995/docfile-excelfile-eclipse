@@ -39,7 +39,7 @@ public class DocUtil {
 		byte[] bFile = null;
 		try {
 			// µÃµ½Ä£°å
-			t = this.configuration.getTemplate(fileName + ".xml", "UTF-8");
+			t = this.configuration.getTemplate(fileName + ".ftl", "UTF-8");
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;
