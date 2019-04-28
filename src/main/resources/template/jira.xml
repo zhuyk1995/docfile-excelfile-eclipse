@@ -77,8 +77,6 @@
 								<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 							</w:rPr>
 						</w:pPr>
-						<w:bookmarkStart w:id="0" w:name="_GoBack" />
-						<w:bookmarkEnd w:id="0" />
 						<w:r>
 							<w:rPr>
 								<w:rFonts w:hint="eastAsia" />
@@ -447,7 +445,71 @@
 											<w:vertAlign w:val="baseline" />
 											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 										</w:rPr>
-										<w:t>${rowNum}</w:t>
+										<w:t>&lt;jx:forEach items=</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="default" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>”</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>${values[0]</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="default" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>”</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>var=</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="default" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>”</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>item</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="default" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>”</w:t>
+									</w:r>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>&gt;</w:t>
 									</w:r>
 								</w:p>
 							</w:tc>
@@ -463,14 +525,8 @@
 											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 										</w:rPr>
 									</w:pPr>
-									<w:r>
-										<w:rPr>
-											<w:rFonts w:hint="eastAsia" />
-											<w:vertAlign w:val="baseline" />
-											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
-										</w:rPr>
-										<w:t>${fullName}</w:t>
-									</w:r>
+									<w:bookmarkStart w:id="0" w:name="_GoBack" />
+									<w:bookmarkEnd w:id="0" />
 								</w:p>
 							</w:tc>
 							<w:tc>
@@ -485,19 +541,97 @@
 											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 										</w:rPr>
 									</w:pPr>
-									<w:r>
-										<w:rPr>
-											<w:rFonts w:hint="eastAsia" />
-											<w:vertAlign w:val="baseline" />
-											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
-										</w:rPr>
-										<w:t>${line}</w:t>
-									</w:r>
 								</w:p>
 							</w:tc>
 							<w:tc>
 								<w:tcPr>
 									<w:tcW w:w="1017" w:type="dxa" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="default" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1168" w:type="dxa" />
+									<w:vAlign w:val="top" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1522" w:type="dxa" />
+									<w:vAlign w:val="top" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1315" w:type="dxa" />
+									<w:vAlign w:val="top" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+						</w:tr>
+						<w:tr>
+							<w:tblPrEx>
+								<w:tblBorders>
+									<w:top w:val="single" w:color="auto" w:sz="4" w:space="0" />
+									<w:left w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+									<w:bottom w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+									<w:right w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+									<w:insideH w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+									<w:insideV w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+								</w:tblBorders>
+								<w:tblLayout w:type="fixed" />
+								<w:tblCellMar>
+									<w:top w:w="0" w:type="dxa" />
+									<w:left w:w="108" w:type="dxa" />
+									<w:bottom w:w="0" w:type="dxa" />
+									<w:right w:w="108" w:type="dxa" />
+								</w:tblCellMar>
+							</w:tblPrEx>
+							<w:trPr>
+								<w:trHeight w:val="215" w:hRule="atLeast" />
+							</w:trPr>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="564" w:type="dxa" />
 								</w:tcPr>
 								<w:p>
 									<w:pPr>
@@ -513,7 +647,73 @@
 											<w:vertAlign w:val="baseline" />
 											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 										</w:rPr>
-										<w:t>${shortName}</w:t>
+										<w:t>${item.rowNum}</w:t>
+									</w:r>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1367" w:type="dxa" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>${item.fullName}</w:t>
+									</w:r>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1569" w:type="dxa" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>${item.line}</w:t>
+									</w:r>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1017" w:type="dxa" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>${item.shortName}</w:t>
 									</w:r>
 								</w:p>
 							</w:tc>
@@ -536,7 +736,7 @@
 											<w:vertAlign w:val="baseline" />
 											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 										</w:rPr>
-										<w:t>${fullName}</w:t>
+										<w:t>${item.fullName}</w:t>
 									</w:r>
 								</w:p>
 							</w:tc>
@@ -559,7 +759,7 @@
 											<w:vertAlign w:val="baseline" />
 											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 										</w:rPr>
-										<w:t>${line}</w:t>
+										<w:t>${item.line}</w:t>
 									</w:r>
 								</w:p>
 							</w:tc>
@@ -582,8 +782,144 @@
 											<w:vertAlign w:val="baseline" />
 											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
 										</w:rPr>
-										<w:t>${shortName}</w:t>
+										<w:t>${item.shortName}</w:t>
 									</w:r>
+								</w:p>
+							</w:tc>
+						</w:tr>
+						<w:tr>
+							<w:tblPrEx>
+								<w:tblBorders>
+									<w:top w:val="single" w:color="auto" w:sz="4" w:space="0" />
+									<w:left w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+									<w:bottom w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+									<w:right w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+									<w:insideH w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+									<w:insideV w:val="single" w:color="auto" w:sz="4"
+										w:space="0" />
+								</w:tblBorders>
+								<w:tblLayout w:type="fixed" />
+								<w:tblCellMar>
+									<w:top w:w="0" w:type="dxa" />
+									<w:left w:w="108" w:type="dxa" />
+									<w:bottom w:w="0" w:type="dxa" />
+									<w:right w:w="108" w:type="dxa" />
+								</w:tblCellMar>
+							</w:tblPrEx>
+							<w:trPr>
+								<w:trHeight w:val="215" w:hRule="atLeast" />
+							</w:trPr>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="564" w:type="dxa" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="default" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+									<w:r>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+										<w:t>&lt;/jx.forEach&gt;</w:t>
+									</w:r>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1367" w:type="dxa" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1569" w:type="dxa" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1017" w:type="dxa" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1168" w:type="dxa" />
+									<w:vAlign w:val="top" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1522" w:type="dxa" />
+									<w:vAlign w:val="top" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
+								</w:p>
+							</w:tc>
+							<w:tc>
+								<w:tcPr>
+									<w:tcW w:w="1315" w:type="dxa" />
+									<w:vAlign w:val="top" />
+								</w:tcPr>
+								<w:p>
+									<w:pPr>
+										<w:rPr>
+											<w:rFonts w:hint="eastAsia" />
+											<w:vertAlign w:val="baseline" />
+											<w:lang w:val="en-US" w:eastAsia="zh-CN" />
+										</w:rPr>
+									</w:pPr>
 								</w:p>
 							</w:tc>
 						</w:tr>
@@ -680,7 +1016,7 @@
 				</dcterms:created>
 				<dc:creator>ZUOSHICHAO</dc:creator>
 				<cp:lastModifiedBy>ZUOSHICHAO</cp:lastModifiedBy>
-				<dcterms:modified xsi:type="dcterms:W3CDTF">2019-04-26T03:56:05Z
+				<dcterms:modified xsi:type="dcterms:W3CDTF">2019-04-28T01:54:43Z
 				</dcterms:modified>
 			</cp:coreProperties>
 		</pkg:xmlData>
@@ -788,7 +1124,7 @@
 				xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
 				xmlns:sl="http://schemas.openxmlformats.org/schemaLibrary/2006/main"
 				mc:Ignorable="w14">
-				<w:zoom w:percent="140" />
+				<w:zoom w:percent="150" />
 				<w:doNotDisplayPageBoundaries w:val="1" />
 				<w:embedSystemFonts />
 				<w:bordersDoNotSurroundHeader w:val="1" />
@@ -826,7 +1162,10 @@
 					<w:rsid w:val="03473E3A" />
 					<w:rsid w:val="1B5F10EF" />
 					<w:rsid w:val="342D300C" />
+					<w:rsid w:val="37DA4361" />
 					<w:rsid w:val="591A1431" />
+					<w:rsid w:val="6D9F127E" />
+					<w:rsid w:val="72D76E44" />
 					<w:rsid w:val="7E9F303C" />
 				</w:rsids>
 				<m:mathPr>

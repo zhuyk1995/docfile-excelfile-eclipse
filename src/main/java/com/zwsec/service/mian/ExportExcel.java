@@ -106,14 +106,14 @@ public class ExportExcel {
 				0, // first column
 				0 // last column
 		);
-		// 合并单元格
-		CellRangeAddress region2 = new CellRangeAddress(0, // first row
-				0, // last row
-				1, // first column
-				3 // last column
-		);
+//		// 合并单元格
+//		CellRangeAddress region2 = new CellRangeAddress(0, // first row
+//				0, // last row
+//				1, // first column
+//				3 // last column
+//		);
 		sheet.addMergedRegion(region);
-		sheet.addMergedRegion(region2);
+		//sheet.addMergedRegion(region2);
 		// 创建表格之后设置行高与列宽
 		for (int i = 0; i < datas.length; i++) {
 			row = sheet.getRow(i);

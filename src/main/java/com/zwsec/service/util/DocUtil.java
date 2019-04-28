@@ -16,9 +16,9 @@ import freemarker.template.Template;
 
 /**
  * word工具类
+ * 
  * @author ZHUYK
- * @question：在循环word文件中占位符出现问题
- * 	数据不完整且错误但word格式正确
+ * @question：在循环word文件中占位符出现问题 数据不完整且错误但word格式正确
  */
 public class DocUtil {
 
@@ -31,26 +31,26 @@ public class DocUtil {
 
 	public byte[] createDocArea(List<Map<String, Object>> dataMapList, String outFilePath, String fileName)
 			throws IOException {
-		//模板路径
+		// 模板路径
 		this.configuration.setDirectoryForTemplateLoading(
 				new File("D:\\eclipse-workspace\\DocCreate\\src\\main\\resources\\template"));
 		Template t = null;
 		File outFile = null;
 		byte[] bFile = null;
 		try {
-			//得到模板
+			// 得到模板
 			t = this.configuration.getTemplate(fileName + ".xml", "UTF-8");
 		} catch (Exception e) {
 			e.printStackTrace();
 			return null;
 		}
-		//创建目录以及文件
+		// 创建目录以及文件
 		outFile = new File(outFilePath);
 		if (!outFile.exists()) {
 			outFile.mkdirs();
 		}
 		outFile = new File(outFilePath + getNowDate());
-		
+
 		Writer w = null;
 		FileOutputStream fos = null;
 		try {
@@ -61,10 +61,8 @@ public class DocUtil {
 			e.printStackTrace();
 		}
 		try {
-			for (Map<String, Object> dataMap : dataMapList) {
-				//写入数据
-				t.process(dataMap, w);
-			}
+			// 写入数据
+			t.process(dataMapList, w);
 			if (outFile != null) {
 				FileInputStream fis = new FileInputStream(outFile);
 				bFile = new byte[(int) outFile.length()];
@@ -82,6 +80,7 @@ public class DocUtil {
 
 	/**
 	 * 创建Doc文件名
+	 * 
 	 * @return
 	 */
 	public static String getNowDate() {
