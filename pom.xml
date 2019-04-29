@@ -240,8 +240,8 @@
 			<artifactId>httpcore</artifactId>
 			<version>${httpcore.version}</version>
 		</dependency>
-		
-		<!-- poi jar -->
+
+		<!-- poi jar 
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
@@ -271,8 +271,13 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-scratchpad</artifactId>
 			<version>3.9</version>
-		</dependency>
+		</dependency>-->
 		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.16</version>
+		</dependency>
 		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
