@@ -31,12 +31,12 @@ public class ExcelUtils {
 
 		try {
 			inputStream=ExcelUtils.class.getResourceAsStream("/templates/test.xlsx");
-//			String path = ExcelUtils.class.getResource("/").getPath() + "/text.xlsx";
-//			File file = new File(path);
-//			boolean exists = file.exists();
-//			System.out.println(exists);
-			//FileInputStream fileInputStream = new FileInputStream(file);
-			//inputStream = fileInputStream;
+			String path = ExcelUtils.class.getResource("/").getPath() + "/text.xlsx";
+			File file = new File(path);
+			boolean exists = file.exists();
+			System.out.println(exists);
+			FileInputStream fileInputStream = new FileInputStream(file);
+			inputStream = fileInputStream;
 
 			tempWorkbook = new XSSFWorkbook(inputStream);
 
