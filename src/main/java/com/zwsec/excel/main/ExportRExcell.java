@@ -1,7 +1,6 @@
 package com.zwsec.excel.main;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -24,7 +23,7 @@ public class ExportRExcell {
 		List<Map<String, String>> data = new ArrayList<Map<String,String>>();
 		
 		for(int i=0;i<2;i++) {
-			Map map = new HashMap();
+			Map<String, String> map = new HashMap<String, String>();
 			map.put("preAmount", "2.0");
 			map.put("plusAmount", "2.0");
 			map.put("reduceAmount", "2.0");
