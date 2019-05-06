@@ -12,7 +12,7 @@ import com.zwsec.twoexcel.util.ExcelUtil;
  */
 public class TwoExcelMain {
 
-	private static final String srcXlsPath = "D:\\jira.xls";
+	private static final String srcXlsPath = "classpath:model/jira.xls";
 	private static final String desXlsPath = "D:\\jira\\attach\\test.xls";
 	private static final String sheetName = "漏洞信息详情表";
 
