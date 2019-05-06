@@ -5,8 +5,14 @@ import java.util.List;
 
 import com.zwsec.twoexcel.pojo.DatEntity;
 
+/**
+ * 造数据功能类
+ * 
+ * @author ZUOSHICHAO
+ *
+ */
 public class CreateDateEntity {
-	
+
 	private static String fileName = "org.src.zwsecode.mapper.userController.java";
 	private static String shortName = "parms";
 
