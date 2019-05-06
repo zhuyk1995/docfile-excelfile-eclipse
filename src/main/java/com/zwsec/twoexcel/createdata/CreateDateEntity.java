@@ -16,9 +16,9 @@ public class CreateDateEntity {
 	private static String fileName = "org.src.zwsecode.mapper.userController.java";
 	private static String shortName = "parms";
 
-	public List<DatEntity> createDate() {
+	public List<DatEntity> createDate(int i) {
 		List<DatEntity> datEntities = new ArrayList<DatEntity>();
-		for (int i = 0; i < 10; i++) {
+		for ( ; i < 10; i++) {
 			DatEntity datEntity = new DatEntity(i, fileName + i, (i + 5) * 2, shortName + i);
 			datEntities.add(datEntity);
 		}
