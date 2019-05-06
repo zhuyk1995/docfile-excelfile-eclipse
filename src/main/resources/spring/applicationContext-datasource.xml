@@ -32,6 +32,9 @@
         <property name="logAbandoned" value="true"/>
     </bean>
 
+    <bean id="sqlDmcaJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="sqlDmcaDataSource" />
+    </bean>
 
     <bean id="dataSourceSwitcher" class="com.zhiwei.codesecurity.common.multiDataSource.util.DataSourceSwitcher">
         <property name="targetDataSources">
