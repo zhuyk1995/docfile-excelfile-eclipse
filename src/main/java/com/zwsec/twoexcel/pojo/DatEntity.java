@@ -59,5 +59,8 @@ public class DatEntity implements Serializable{
 		this.shortName = shortName;
 	}
 	
+	public DatEntity() {
+		
+	}
 	
 }
