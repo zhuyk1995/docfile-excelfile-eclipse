@@ -14,7 +14,7 @@
         <!--</property>-->
         <!--<property name="fileEncoding" value="utf-8" />-->
     <!--</bean>-->
-
+<!-- what fuck you say!!! -->
     <bean class="com.zhiwei.codesecurity.common.utils.ReloadAbleProperty" id="propertyConfigurer">
         <property name="locations">
             <list>
