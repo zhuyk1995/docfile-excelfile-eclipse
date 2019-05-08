@@ -93,8 +93,8 @@ public class ExcelUtil {
 	 * 第五步，设置数据（分为六种） 设置字符串类型的数据
 	 * 
 	 * @param rowIndex-- 行值
-	 * @param cellnum--  列值
-	 * @param value--    字符串类型的数值
+	 * @param cellnum-- 列值
+	 * @param value-- 字符串类型的数值
 	 */
 	public void setCellStrValue(int rowIndex, int cellnum, String value) {
 		HSSFCell cell = sheet.getRow(rowIndex).getCell(cellnum);
@@ -106,8 +106,8 @@ public class ExcelUtil {
 	 * 第五步，设置数据（分为六种） 设置日期/时间类型的数据
 	 * 
 	 * @param rowIndex-- 行值
-	 * @param cellnum--  列值
-	 * @param value--    日期/时间类型的数值
+	 * @param cellnum-- 列值
+	 * @param value-- 日期/时间类型的数值
 	 */
 	public void setCellDateValue(int rowIndex, int cellnum, Date value) {
 		HSSFCell cell = sheet.getRow(rowIndex).getCell(cellnum);
@@ -118,8 +118,8 @@ public class ExcelUtil {
 	 * 第五步，设置数据（分为六种） 设置浮点类型的数据
 	 * 
 	 * @param rowIndex-- 行值
-	 * @param cellnum--  列值
-	 * @param value--    浮点类型的数值
+	 * @param cellnum-- 列值
+	 * @param value-- 浮点类型的数值
 	 */
 	public void setCellDoubleValue(int rowIndex, int cellnum, double value) {
 		HSSFCell cell = sheet.getRow(rowIndex).getCell(cellnum);
@@ -130,8 +130,8 @@ public class ExcelUtil {
 	 * 第五步，设置数据（分为六种） 设置Bool类型的数据
 	 * 
 	 * @param rowIndex-- 行值
-	 * @param cellnum--  列值
-	 * @param value--    Bool类型的数值
+	 * @param cellnum-- 列值
+	 * @param value-- Bool类型的数值
 	 */
 	public void setCellBoolValue(int rowIndex, int cellnum, boolean value) {
 		HSSFCell cell = sheet.getRow(rowIndex).getCell(cellnum);
@@ -142,8 +142,8 @@ public class ExcelUtil {
 	 * 第五步，设置数据（分为六种） 设置日历类型的数据
 	 * 
 	 * @param rowIndex-- 行值
-	 * @param cellnum--  列值
-	 * @param value--    日历类型的数值
+	 * @param cellnum-- 列值
+	 * @param value-- 日历类型的数值
 	 */
 	public void setCellCalendarValue(int rowIndex, int cellnum, Calendar value) {
 		HSSFCell cell = sheet.getRow(rowIndex).getCell(cellnum);
@@ -154,8 +154,8 @@ public class ExcelUtil {
 	 * 第五步，设置数据（分为六种） 设置富文本类型的数据
 	 * 
 	 * @param rowIndex-- 行值
-	 * @param cellnum--  列值
-	 * @param value--    富文本类型的数值
+	 * @param cellnum-- 列值
+	 * @param value-- 富文本类型的数值
 	 */
 	public void setCellRichTextStrValue(int rowIndex, int cellnum, RichTextString value) {
 		HSSFCell cell = sheet.getRow(rowIndex).getCell(cellnum);

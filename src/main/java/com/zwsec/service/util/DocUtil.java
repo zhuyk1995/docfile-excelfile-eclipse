@@ -24,6 +24,7 @@ public class DocUtil {
 
 	private Configuration configuration;
 
+	@SuppressWarnings("deprecation")
 	public DocUtil() {
 		configuration = new Configuration();
 		configuration.setDefaultEncoding("UTF-8");
