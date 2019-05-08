@@ -51,33 +51,38 @@ public class ExportRExcell {
 	public static void main(String[] args) {
 		// exportExcell(null, null);
 		//List<Map<String, Object>> mapList = new ArrayList<Map<String, Object>>();
+		// 创建数据
 		List<DatEntity> datEntities = new CreateDateEntity().createDate(6);
+		// 创建Map集合
 		DataListRlt dataListRlt = new DataListRlt();
 		dataListRlt.setDatas(new ArrayList<Map<String, Object>>());
 		dataListRlt.setQueryVersionName("com.zwsec.codeservice.impl");
 		dataListRlt.setQueryVersionNum("INC2019050700012");
-		
+		// 创建实体类集合
 		DataListRltFalse dataListRltFalse = new DataListRltFalse();
 		dataListRltFalse.setDatas(new ArrayList<DatEntity>());
 		dataListRltFalse.setQueryVersionName("com.zwsec.codeservice.implements");
 		dataListRltFalse.setQueryVersionNum("INC2019050700013");
+		// 开始存值
 		for (int i = 0; i < datEntities.size(); i++) {
+			// 对应实体类
 			DatEntity datEntity = new DatEntity();
 			// 向 Map 中存值
 			Map<String, Object> map = new HashMap<String, Object>();
-			map.put("RowNum", datEntities.get(i).getRowNum());
-			map.put("FileName", datEntities.get(i).getFileName());
-			map.put("Line", datEntities.get(i).getLine());
-			map.put("ShortName", datEntities.get(i).getShortName());
+			map.put("rowNum", datEntities.get(i).getRowNum());
+			map.put("fileName", datEntities.get(i).getFileName());
+			map.put("line", datEntities.get(i).getLine());
+			map.put("shortName", datEntities.get(i).getShortName());
 			//mapList.add(map);
+			// 向实体类存值
+			datEntity.setRowNum(datEntities.get(i).getRowNum());
 			datEntity.setFileName(datEntities.get(i).getFileName());
 			datEntity.setLine(datEntities.get(i).getLine());
 			datEntity.setShortName(datEntities.get(i).getShortName());
-			datEntity.setRowNum(datEntities.get(i).getRowNum());
+			// 向相应类存入相应的值
 			dataListRltFalse.getDatas().add(datEntity);
 			dataListRlt.getDatas().add(map);
 		}
-
 		System.out.println(JSON.toJSON(dataListRlt));
 		System.out.println(JSON.toJSON(dataListRltFalse));
 	}
